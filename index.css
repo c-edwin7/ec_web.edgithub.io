@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+.container {
+background-color: aqua;
+width: 100%;
+display: table;
+position: fixed;
+
+}
+
+.name {
+    font-size: rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    float: left;
+}
+.name a{
+    color: white;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+/*          extras                    */
+
+ul#navmenu, ul.sub1, ul.sub2 {
+    list-style-type: none;
+    /*outline: 1px solid red;*/
+    } 
+ul#navmenu li {
+    /*outline: 1px solid red;*/
+    width: 125px;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right: 4px;
+    }
+ul#navmenu a {
+    text-decoration: none;
+    display: block;
+    width: 125px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+
+ul#navmenu .sub1 a {
+    margin-top: 5px;
+    }
+ul#navmenu .sub2 a {
+    margin-left: 10px;
+    }
+ul#navmenu li:hover > a {
+    background-color: #cfc;
+    }
+ul#navmenu li:hover a:hover {
+    background-color: #ff0;
+    }
+ul#navmenu ul.sub1 {
+    display: none; /*to make it disapper*/
+    position:absolute;
+    top: 26px;
+    left: 0px;
+    }
+ul#navmenu ul.sub2 {
+    display: none;    /*to make it disapper*/
+    position: absolute;
+    top: 0px;
+    left: 126px;
+    }
+ul#navmenu li:hover .sub1 {
+    display: block;
+    }
+.darrow {
+    font-size: 11pt;
+    position: absolute;
+    top: 5px;
+    right: 4px;
+    }
