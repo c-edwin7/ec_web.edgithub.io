@@ -6,12 +6,9 @@ body {
 .container {
     margin: auto;
     width: 60%;
-    border: 3px solid #73AD21;
     padding: 10px;    
-background-color: aqua;
-width: 100%;
-display: table;
-position: fixed;
+    background-color: aqua;
+
 
 }
 
